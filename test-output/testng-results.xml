@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46297" started-at="2021-02-05T16:46:06 IST" finished-at="2021-02-05T16:46:52 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="11755" started-at="2021-02-05T16:46:06 IST" finished-at="2021-02-05T16:46:17 IST">
+      <class name="crossBrowser.DemoCross">
+        <test-method status="PASS" signature="TC_01(java.lang.String)[pri:0, instance:crossBrowser.DemoCross@3d99d22e]" name="TC_01" duration-ms="11618" started-at="2021-02-05T16:46:06 IST" finished-at="2021-02-05T16:46:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+      </class> <!-- crossBrowser.DemoCross -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="46297" started-at="2021-02-05T16:46:06 IST" finished-at="2021-02-05T16:46:52 IST">
+      <class name="crossBrowser.DemoCross">
+        <test-method status="PASS" signature="TC_01(java.lang.String)[pri:0, instance:crossBrowser.DemoCross@4e7dc304]" name="TC_01" duration-ms="46196" started-at="2021-02-05T16:46:06 IST" finished-at="2021-02-05T16:46:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+      </class> <!-- crossBrowser.DemoCross -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
